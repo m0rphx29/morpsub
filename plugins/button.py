@@ -28,10 +28,11 @@ def start_button(client):
     if current_row:
         dynamic_buttons.append(current_row)
 
-    buttons = [
+    buttons = 
+    [
         dynamic_buttons + [
         [InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data="close")],
-    ]
+     ]
     ]
     return buttons
 
