@@ -10,7 +10,6 @@ def start_button(client):
     if not FORCE_SUB:
         buttons = [
             [
-                InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
                 InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data="close"),
             ],
         ]
@@ -30,10 +29,7 @@ def start_button(client):
         dynamic_buttons.append(current_row)
 
     buttons = [
-        [
-            InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
-        ],
-    ] + dynamic_buttons + [
+        dynamic_buttons + [
         [InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data="close")],
     ]
     return buttons
