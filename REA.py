@@ -23,7 +23,7 @@ class Data:
 
     mbuttons = [
         [
-            InlineKeyboardButton("ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
+        
             InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")
         ],
     ]
@@ -45,5 +45,5 @@ class Data:
 
 
  • Ingin membuat Bot seperti ini chat @blacky0uth
-👨‍💻 Develoved by </b><a href='https://t.me/blacky0uth'>sep'</a>
+💻 Customized by </b><a href='https://t.me/blacky0uth'>sep'</a>
 """
