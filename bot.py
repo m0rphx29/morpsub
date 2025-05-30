@@ -91,7 +91,7 @@ class Bot(Client):
 
         self.set_parse_mode(enums.ParseMode.HTML)
         self.LOGGER(__name__).info(
-            f"[🔥 MENYALA ABANGKU! 🔥]\n\nBOT Dibuat oleh @{OWNER}\nJika @{OWNER} Membutuhkan Bantuan, Silahkan Nonton Youtube"
+            f"[🔥 MENYALA ABANGKU! 🔥]\n\nBOT Dilahirin @{OWNER}\nKalo @{OWNER} Butuh Bantuan, Belajar ndili nyet gausa banyak nanya"
         )
 
     async def stop(self, *args):
